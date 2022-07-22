@@ -1,0 +1,906 @@
+<!doctype html>
+{% load static %}
+
+<html lang="en-US">
+<head>
+
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<title>Portfolio Website</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="{% static 'css/basic.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/layout.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/jarallax.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/swiper.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/fontawesome.css' %}" />
+		
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+
+</head>
+
+<body class="home">
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="box-1">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="lines"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-2"></div>
+	</div>
+	
+	<!-- Container -->
+	<div class="container">
+	
+		<!-- Header -->
+		<header class="header">
+
+			<!-- logo -->
+			<div class="logo">
+				<a href="#">
+					<img class="logo-img" src="" alt="" />
+					<span class="logo-lnk">Farhan <br />Tahmid</span>
+				</a>
+			</div>
+
+			<!-- menu button -->
+			<a href="#" class="menu-btn"><span></span></a>
+				
+			<!-- download cv button -->
+			<a href="https://drive.google.com/file/d/1OT8wYeGmLTwZ9PLJcbqW2cV-5NFGAwK3/view?usp=sharing" target="_blank" download="farhan_tahmid_cv.pdf" class="btn download-cv-btn">
+				<span class="animated-button"><span>Download CV</span></span>
+				<i class="icon fas fa-download"></i>
+			</a>
+
+			<!-- header sidebar -->
+			<div class="header-sidebar">
+
+				<!-- top menu -->						
+				<div class="top-menu">
+					<div class="top-menu-nav">	
+						<div class="menu-topmenu-container">
+							<ul class="menu">
+								<li class="menu-item current-menu-item menu-item-has-children">
+									<a href="#section-started">
+										<span class="animated-button"><span>Home</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#section-about">
+										<span class="animated-button"><span>About</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#section-services">
+										<span class="animated-button"><span>Works</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#section-portfolio">
+										<span class="animated-button"><span>Portfolio</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#section-contacts">
+										<span class="animated-button"><span>Contact</span></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">
+
+			<!-- Background -->
+			<div class="background-bg">
+				<div class="background-filter gradient">
+					<div class="background-img" style="background-image: url({% static 'images/farhan-dp.jpg' %});"></div>
+				</div>
+			</div>
+
+			<!-- Section Started -->
+			<div class="section started" id="section-started">
+				<div class="centrize full-width">
+					<div class="vertical-center">
+
+						<!-- title -->
+						<h1 class="h-title">
+							Farhan Ishrak <br />Tahmid
+						</h1>
+
+						<!-- content started -->
+						<div class="started-content">
+
+							<!-- subtitle -->
+							<div class="h-subtitles">
+								<div class="h-subtitle typing-subtitle">
+
+									<p>Programmer</p>
+									<p>Software Engineer</p>
+									<p>Backend Website Developer</p>
+									<p>Android Developer</p>
+									<p>Java Developer</p>
+								</div>
+								<span class="typed-subtitle"></span>
+							</div>
+
+							<!-- text -->
+							<div class="h-text">
+								Assalamu Alaikum! This is Farhan Ishrak Tahmid. I am a Software Engineer from Dhaka, Bangladesh. I am currently gaining my experience in backend website development, aiming to go fullstack in web development field, also I am good at Java Software development and Android development. I nurture a lot of passion inside me for Data Engineering and Machine Learning field!
+							</div>
+
+							<!-- button -->
+							<a href="https://www.facebook.com/farhan.tahmid.104/" class="btn">
+								<span class="animated-button"><span>Contact Me</span></span>
+								<i class="icon fas fa-chevron-right"></i>
+							</a>
+
+							<!-- mosue button -->
+							<a href="#" class="btn mouse-btn" style="display: none;">
+								<i class="icon fas fa-chevron-down"></i>
+							</a>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Section About -->
+			<div class="section about" id="section-about">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">About Me</div>
+						<div class="subtitle">My story</div>
+					</div>
+
+					<!-- text -->
+					<div class="cols">
+						<div class="col">
+							<div class="single-post-text">
+								<p>
+									For me, working in Computer sciences field is all about passion! It has always been in me that I wanted to create something of my own, built by me, customised by me for myself and the world. The field of CS offered me the best opportunity in this case.
+								</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="single-post-text">
+								<p>
+									I am currently studying at North South University, one of my country's most renowned and well reputed universities. Currently, completing my 6th semester here. I am hoping to complete my BS in CSE degree by the year 2024 with 6 more semesters to go!
+								</p>
+							</div>
+						</div>
+						<div class="col col-full">
+							<div class="single-post-text">
+								<p>
+									A phrase in German always worked the best for me! It is, "Verliere nie die Hoffnung!". In English it says, "Never Loose HOPE!". I simply never loose the hope for anything.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- info list -->
+					<div class="info-list">
+						<ul>
+							<li><strong>Age:</strong> 21</li>
+							<li><strong>Residence:</strong> Bangladesh</li>
+							<li><strong>Freelance:</strong> Available</li>
+							<li><strong>Address:</strong> Dhaka</li>
+							<li><strong>E-mail:</strong> farhantahmid881@gmail.com</li>
+						</ul>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!-- Section Service -->
+			<div class="section service" id="section-services">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Works</div>
+						<div class="subtitle">What I Do</div>
+					</div>
+
+					<!-- services items -->
+					<div class="service-items">
+
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="icon fab fa-java"></i></div>
+								<div class="name">Java <br />Development</div>
+								<div class="single-post-text">
+									<p>
+										Can develop a fully functional Java Software, Programs, Games. Familiar with both Java Swing and JavaFX GUI.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="icon fa fa-chart-line"></i></div>
+								<div class="name">Data Engineering &<br />Machine Learning </div>
+								<div class="single-post-text">
+									<p>
+										Currently exploring this field with various projects in hand to work on. Developing data dashboards, prediction model, object recognition programs.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="icon fab fa-chrome"></i></div>
+								<div class="name">Web <br />Development</div>
+								<div class="single-post-text">
+									<p>
+										The web development process includes: backend web development with python django framework, backend database handling, client-side / server-side scripting. Along with these i have experience working with HTML, CSS3, BootStrap5, JavaScript
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="icon fa fa-mobile"></i></div>
+								<div class="name">Android <br />Development</div>
+								<div class="single-post-text">
+									<p>
+										I Can develop Android Applications with Java and Flutter framework. Willing to learn cross-platform app development too in near future.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="icon fab fa-python"></i></div>
+								<div class="name">Python <br />Development</div>
+								<div class="single-post-text">
+									<p>
+										I can program applications and software based on python. I also have profound knowledge of working with NumPy, Pandas, tKinter!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item">
+								<div class="icon"><i class="fas fa-camera-retro"></i></div>
+								<div class="name">Photography <br /></div>
+								<div class="single-post-text">
+									<p>
+										Started photography as my hobby at first, But found a lot of passion doing this. I am  a freelance photographer too.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+
+			<!-- Section Resume -->
+			<div class="section resume" id="section-experience">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Experience</div>
+						<div class="subtitle">Working with</div>
+					</div>
+
+					<!-- resume items -->
+					<div class="content-carousel">
+						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
+
+							<div class="item">
+								<div class="resume-item active">
+									<div class="date">Present</div>
+									<div class="name">Incharge <br> Media Team - IEEE-NSUSB</div>
+									<div class="single-post-text">
+										<p>
+											I am currently serving as the Incharge of The media team, IEEE NSU Student Branch.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2021-2022</div>
+									<div class="name">Core Volunteer <br />Media Team - IEEE-NSUSB</div>
+									<div class="single-post-text">
+										<p>
+											Served as a Co-Volunteer of Media Team, IEEE NSU Student branch for a year! .
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2019-2020</div>
+									<div class="name">Organising <br />Secretary</div>
+									<div class="single-post-text">
+										<p>
+											Served as an Organising Secretary for DRMC Art and Photography Club for the time period. Was incharge of Event Management and Volunteer management.
+ 										</p>
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+
+						<!-- navigation -->
+						<div class="navs">
+							<span class="prev fas fa-chevron-left"></span>
+							<span class="next fas fa-chevron-right"></span>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Section Resume -->
+			<div class="section resume" id="section-education">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Education</div>
+						<div class="subtitle">Studied at</div>
+					</div>
+
+					<!-- resume items -->
+					<div class="content-carousel">
+						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
+
+							<div class="item">
+								<div class="resume-item active">
+									<div class="date">2020-Present</div>
+									<div class="name">North South University <br />Dhaka</div>
+									<div class="single-post-text">
+										<p>
+											Currently in my 2nd year (6th semester) at North South University. Completing my BACHELOR OF SCIENCE IN COMPUTER SCIENCE AND ENGINEERING from here.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2018-2019</div>
+									<div class="name">Higher Secondary School Certificate <br />Dhaka Residential Model College</div>
+									<div class="single-post-text">
+										<p>
+											Completed my HSC from Dhaka Residential Model College with a GPA of 4.67 on a scale of 5.00.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2016-2017</div>
+									<div class="name">Secondary School Certificate <br />Dhaka Residential Model College</div>
+									<div class="single-post-text">
+										<p>
+											Completed my SSC from Dhaka Residential Model College with a GPA of 5.00 on a scale of 5.00.
+										</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- navigation -->
+						<div class="navs">
+							<span class="prev fas fa-chevron-left"></span>
+							<span class="next fas fa-chevron-right"></span>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--Awards and Honors-->
+
+			<div class="section resume" id="section-awards">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Awards & Prizes</div>
+						<div class="subtitle">Hackathons & Coding Championships<br>Photography Competitions</div>
+					</div>
+
+					<!-- resume items -->
+					<div class="content-carousel">
+						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
+
+							<div class="item">
+								<div class="resume-item active">
+									<div class="date">2021</div>
+									<div class="name">Champion <br />Hack NSU Season 3</div>
+									<div class="single-post-text">
+										<p>
+											Became the champion of Hack NSU season3 2021, a hackathon arranged by North South University ACM Student Chapter. Here I worked in "Team Code Parina" along with my team-mates and friends Zaed, Absara, Nijhum and won prize money of 25k BDT.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2021</div>
+									<div class="name">1st Runner-Up <br />Odommo'50 SUPER Tech-fest</div>
+									<div class="single-post-text">
+										<p>
+											Became the first runner up of Odommo'50 SUPER Tech-fest, a hackathon 𝐡𝐨𝐬𝐭𝐞𝐝 𝐛𝐲, 𝐒𝐭𝐫𝐞𝐧𝐠𝐭𝐡𝐞𝐧𝐢𝐧𝐠 𝐔𝐫𝐛𝐚𝐧 𝐏𝐮𝐛𝐥𝐢𝐜-𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐟𝐨𝐫 𝐄𝐚𝐫𝐭𝐡𝐪𝐮𝐚𝐤𝐞 𝐑𝐞𝐬𝐢𝐥𝐢𝐞𝐧𝐜𝐞(𝐒𝐔𝐏𝐄𝐑) 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐚𝐧𝐝 𝐔𝐧𝐢𝐭𝐞𝐝 𝐏𝐮𝐫𝐩𝐨𝐬𝐞. Here I worked in "Team Drone Urena" along with my friends, Zaed, Absara and Mahir and won prize money of 15k BDT.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="resume-item">
+									<div class="date">2019</div>
+									<div class="name">Photography Competition <br />DRMCAPC presents National Art & Music Fest'19</div>
+									<div class="single-post-text">
+										<p>
+											Won the Runner-up prize in the Senior segment of DSLR Photography in this national art and music fest.
+										</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- navigation -->
+						<div class="navs">
+							<span class="prev fas fa-chevron-left"></span>
+							<span class="next fas fa-chevron-right"></span>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<!-- Section Coding Skills -->
+			<div class="section skills" id="section-skills-code">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Coding Skills</div>
+						<div class="subtitle">Developing on</div>
+					</div>
+
+					<!-- skills items-->
+					<div class="skills circles">
+						<ul>
+							<li>
+								<div class="progress p70"> <!-- p90 = 90% circle fill color -->
+									<div class="percentage"></div>
+									<span>70%</span>
+								</div>
+								<div class="name">Java</div>
+								<div class="single-post-text">
+									<p>
+										Software, Program, Game Developer with GUI.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p75"> <!-- p75 = 75% circle fill color -->
+									<div class="percentage"></div>
+									<span>75%</span>
+								</div>
+								<div class="name">Django,PHP, SQL</div>
+								<div class="single-post-text">
+									<p>
+										Developing sites with Django,PHP along with SQLite3, MySQL, PostgreSQL.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p85"> <!-- p85 = 85% circle fill color -->
+									<div class="percentage"></div>
+									<span>85%</span>
+								</div>
+								<div class="name">C, C++</div>
+								<div class="single-post-text">
+									<p>
+										Program Development, Problem-solving, Implementing Data Structure and Algorithms.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p60"> <!-- p80 = 80% circle fill color -->
+									<div class="percentage"></div>
+									<span>60%</span>
+								</div>
+								<div class="name">Android Development</div>
+								<div class="single-post-text">
+									<p>
+										Developing basic Apps for Android.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p65"> <!-- p95 = 95% circle fill color -->
+									<div class="percentage"></div>
+									<span>65%</span>
+								</div>
+								<div class="name">HTML, CSS, Bootstrap</div>
+								<div class="single-post-text">
+									<p>
+										Designing basic front-end for websites.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p75"> <!-- p90 = 90% circle fill color -->
+									<div class="percentage"></div>
+									<span>75%</span>
+								</div>
+								<div class="name">Python</div>
+								<div class="single-post-text">
+									<p>
+										Devoloping python programs and exploring the Data Engineering, AI, ML, DL field.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Section Design Skills -->
+			<div class="section skills" id="section-skills">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Editing Skills</div>
+						<div class="subtitle">Creative ability</div>
+					</div>
+
+					<!-- skills items -->
+					<div class="skills percent">
+						<ul>
+
+							<li>
+								<div class="name">Photoshop, Lightroom</div>
+								<div class="single-post-text">
+									<p>
+										Developing raw photos, basic editing, photo manipulation, color corrections.
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 70%;">
+										<span class="percent">70%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">Premiere Pro</div>
+								<div class="single-post-text">
+									<p>
+										Developing raw videos, color correction, basic editing, cinematic editing.
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 65%;">
+										<span class="percent">65%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Section Languages Skills -->
+			<div class="section skills" id="section-skills-lang">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Language Skills</div>
+						<div class="subtitle">Reading and writing</div>
+					</div>
+
+					<!-- skills items -->
+					<div class="skills dotted">
+						<ul>
+							<li>
+								<div class="name">English</div>
+								<div class="single-post-text">
+									<p>
+										Professional proficiency in both English speaking and writing.
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 85%;">
+										<span class="percent">85%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">Bengali</div>
+								<div class="single-post-text">
+									<p>
+										Full proficiency in Bengali, Mother tongue
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 90%;">
+										<span class="percent">90%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">Hindi</div>
+								<div class="single-post-text">
+									<p>
+										Can have casual communication with people.
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 55%;">
+										<span class="percent">55%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">German</div>
+								<div class="single-post-text">
+									<p>
+										Started learning German recently.
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 25%;">
+										<span class="percent">25%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Works -->
+			<div class="section works" id="section-portfolio">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Portfolio</div>
+						<div class="subtitle">Latest works</div>
+					</div>
+
+					<!-- filter -->
+					<div class="filter-menu">
+						<div class="filters">
+							<div class="btn-group">
+								<label data-text="All" class="glitch-effect">
+									<input type="radio" name="fl_radio" value=".box-col" />All
+								</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Projects">
+									<input type="radio" name="fl_radio" value=".f-projects" />Projects
+								</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Image">
+									<input type="radio" name="fl_radio" value=".f-image" />Image
+								</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Video">
+									<input type="radio" name="fl_radio" value=".f-video" />Video
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<!-- portfolio items -->
+					<div class="box-items">	
+
+						<div class="box-col f-projects">
+							<div class="box-item">
+								<div class="image">
+									<a href="#gallery-1" class="has-popup-gallery">
+										<img src="{% static 'images/works/nsuGateway.png' %}" alt="" />
+										<span class="info">
+											<span class="centrize full-width">
+												<span class="vertical-center">
+													<i class="icon fas fa-images"></i>
+												</span>
+											</span>
+										</span>
+									</a>
+									<div id="gallery-1" class="mfp-hide">
+										<a href="{% static 'images/works/nsuGateway.png' %}"></a>
+										<a href="{% static 'images/works/youtubedata.png' %}"></a>
+										<a href="{% static 'images/works/firefly-app.png' %}"></a>
+										<a href="{% static 'images/works/webpage.png' %}"></a>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="category">Projects</div>
+									<a href="#gallery-1" class="name has-popup-gallery">Recent Project Collection</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="box-col f-video">
+							<div class="box-item">
+								<div class="image">
+									<a href="{% static 'https://youtu.be/NpcaCIiX3VI' %}" class="has-popup-video">
+										<img src="{% static 'images/works/photo4.png' %}" alt="" />
+										<span class="info">
+											<span class="centrize full-width">
+												<span class="vertical-center">
+													<i class="icon fas fa-video"></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="desc">
+									<div class="category">Video Editing</div>
+									<a href="{% static 'https://youtu.be/NpcaCIiX3VI' %}" class="name has-popup-video">Recent Video Editing & Cinematography</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="box-col f-image">
+							<div class="box-item">
+								<div class="image">
+									<a href="#gallery-2" class="has-popup-gallery">
+										<img src="{% static 'images/works/photo0.jpeg' %}" alt="" />
+										<span class="info">
+											<span class="centrize full-width">
+												<span class="vertical-center">
+													<i class="icon fas fa-images"></i>
+												</span>
+											</span>
+										</span>
+									</a>
+									<div id="gallery-2" class="mfp-hide">
+										<a href="{% static 'images/works/photo0.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo1.jpg' %}"></a>
+										<a href="{% static 'images/works/photo2.jpg' %}"></a>
+										<a href="{% static 'images/works/photo3.jpg' %}"></a>
+										<a href="{% static 'images/works/photo4.png' %}"></a>
+										<a href="{% static 'images/works/photo5.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo6.jpg' %}"></a>
+										<a href="{% static 'images/works/photo7.JPG' %}"></a>
+										<a href="{% static 'images/works/photo8.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo9.jpg' %}"></a>
+									</div>
+								</div>
+								<div class="desc">
+									<div class="category">Projects</div>
+									<a href="#gallery-2" class="name has-popup-gallery">Recent Project Collection</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+					<!-- contact info -->
+					<div class="contact-info">
+						<div class="name">Farhan Ishrak Tahmid</div>
+						<div class="subname">Software Engineer</div>
+						<div class="info-list">
+							<ul>
+								<li><strong>Age:</strong> 21</li>
+								<li><strong>Residence:</strong> Bangladesh</li>
+								<li><strong>Freelance:</strong> Available</li>
+								<li><strong>Address:</strong> Dhaka </li>
+								<li><strong>E-mail:</strong> farhantahmid881@gmail.com<br>farhan.tahmid05@northsouth.edu<br></li>
+							</ul>
+						</div>
+						<div class="author">Farhan Tahmid</div>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="socials">
+				<a target="_blank" href="https://github.com/FarhanTahmid">
+					<i class="icon fab fa-github"></i>
+				</a>
+				<a target="_blank" href="https://www.facebook.com/farhan.tahmid.104/">
+					<i class="icon fab fa-facebook-f"></i>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/_absent.kit.lens__/">
+					<i class="icon fab fa-instagram"></i>
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/farhan-tahmid-12667919a/">
+					<i class="icon fab fa-linkedin"></i>
+				</a>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!-- Scripts -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/velocity.min.js' %}"></script>
+	<script src="{% static 'js/jquery.validate.js' %}"></script>
+	<script src="{% static 'js/magnific-popup.js' %}"></script>
+	<script src="{% static 'js/typed.js' %}"></script>
+	<script src="{% static 'js/jarallax.js' %}"></script>
+	<script src="{% static 'js/jarallax-video.js' %}"></script>
+	<script src="{% static 'js/jarallax-element.js' %}"></script>
+	<script src="{% static 'js/imagesloaded.pkgd.js' %}"></script>
+	<script src="{% static 'js/isotope.pkgd.js' %}"></script>
+	<script src="{% static 'js/owl.carousel.js' %}"></script>
+	<script src="{% static 'js/swiper.js' %}"></script>
+	<script src="{% static 'js/scripts.js' %}"></script>
+
+</body>
+</html>
