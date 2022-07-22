@@ -104,8 +104,8 @@
 									</a>
 								</li>
 								<li class="menu-item">
-									<a href="#section-experience">
-										<span class="animated-button"><span>Resume</span></span>
+									<a href="#section-services">
+										<span class="animated-button"><span>Works</span></span>
 									</a>
 								</li>
 								<li class="menu-item">
@@ -144,7 +144,7 @@
 
 						<!-- title -->
 						<h1 class="h-title">
-							Farhan <br />Tahmid
+							Farhan Ishrak <br />Tahmid
 						</h1>
 
 						<!-- content started -->
@@ -153,6 +153,7 @@
 							<!-- subtitle -->
 							<div class="h-subtitles">
 								<div class="h-subtitle typing-subtitle">
+
 									<p>Programmer</p>
 									<p>Software Engineer</p>
 									<p>Backend Website Developer</p>
@@ -213,7 +214,7 @@
 						<div class="col col-full">
 							<div class="single-post-text">
 								<p>
-									For me a phrase in German always worked the best! It is, "Verliere nie die Hoffnung!". In English it says, "Never Loose HOPE!". I simply never loose the hope for anything.
+									A phrase in German always worked the best for me! It is, "Verliere nie die Hoffnung!". In English it says, "Never Loose HOPE!". I simply never loose the hope for anything.
 								</p>
 							</div>
 						</div>
@@ -748,7 +749,7 @@
 							</div>
 							<div class="btn-group">
 								<label data-text="Projects">
-									<input type="radio" name="fl_radio" value=".f-image" />Projects
+									<input type="radio" name="fl_radio" value=".f-projects" />Projects
 								</label>
 							</div>
 							<div class="btn-group">
@@ -767,11 +768,11 @@
 					<!-- portfolio items -->
 					<div class="box-items">	
 
-						<div class="box-col f-gallery">
+						<div class="box-col f-projects">
 							<div class="box-item">
 								<div class="image">
 									<a href="#gallery-1" class="has-popup-gallery">
-										<img src="images/works/work1.jpg" alt="" />
+										<img src="{% static 'images/works/nsuGateway.png' %}" alt="" />
 										<span class="info">
 											<span class="centrize full-width">
 												<span class="vertical-center">
@@ -781,15 +782,15 @@
 										</span>
 									</a>
 									<div id="gallery-1" class="mfp-hide">
-										<a href="images/works/work1.jpg"></a>
-										<a href="images/works/work2.jpg"></a>
-										<a href="images/works/work3.jpg"></a>
-										<a href="images/works/work4.jpg"></a>
+										<a href="{% static 'images/works/nsuGateway.png' %}"></a>
+										<a href="{% static 'images/works/youtubedata.png' %}"></a>
+										<a href="{% static 'images/works/firefly-app.png' %}"></a>
+										<a href="{% static 'images/works/webpage.png' %}"></a>
 									</div>
 								</div>
 								<div class="desc">
-									<div class="category">Gallery</div>
-									<a href="#gallery-1" class="name has-popup-gallery">Alabaster Complete Collection</a>
+									<div class="category">Projects</div>
+									<a href="#gallery-1" class="name has-popup-gallery">Recent Project Collection</a>
 								</div>
 							</div>
 						</div>
@@ -797,8 +798,8 @@
 						<div class="box-col f-video">
 							<div class="box-item">
 								<div class="image">
-									<a href="https://youtu.be/S4L8T2kFFck" class="has-popup-video">
-										<img src="images/works/work2.jpg" alt="" />
+									<a href="{% static 'https://youtu.be/NpcaCIiX3VI' %}" class="has-popup-video">
+										<img src="{% static 'images/works/photo4.png' %}" alt="" />
 										<span class="info">
 											<span class="centrize full-width">
 												<span class="vertical-center">
@@ -809,59 +810,17 @@
 									</a>
 								</div>
 								<div class="desc">
-									<div class="category">Video</div>
-									<a href="https://youtu.be/S4L8T2kFFck" class="name has-popup-video">Book of John Paper</a>
+									<div class="category">Video Editing</div>
+									<a href="{% static 'https://youtu.be/NpcaCIiX3VI' %}" class="name has-popup-video">Recent Video Editing & Cinematography</a>
 								</div>
 							</div>
 						</div>
 
 						<div class="box-col f-image">
-							<div class="box-item">
-								<div class="image">
-									<a href="images/works/work7.jpg" class="has-popup-image">
-										<img src="images/works/work7.jpg" alt="" />
-										<span class="info">
-											<span class="centrize full-width">
-												<span class="vertical-center">
-													<i class="icon fas fa-image"></i>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="desc">
-									<div class="category">Image</div>
-									<a href="images/works/work7.jpg" class="name has-popup-image">White Rose Photo</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="box-col f-image">
-							<div class="box-item">
-								<div class="image">
-									<a href="images/works/work4.jpg" class="has-popup-image">
-										<img src="images/works/work4.jpg" alt="" />
-										<span class="info">
-											<span class="centrize full-width">
-												<span class="vertical-center">
-													<i class="icon fas fa-image"></i>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="desc">
-									<div class="category">Image</div>
-									<a href="images/works/work4.jpg" class="name has-popup-image">Honest Company</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="box-col f-gallery">
 							<div class="box-item">
 								<div class="image">
 									<a href="#gallery-2" class="has-popup-gallery">
-										<img src="images/works/work5.jpg" alt="" />
+										<img src="{% static 'images/works/photo0.jpeg' %}" alt="" />
 										<span class="info">
 											<span class="centrize full-width">
 												<span class="vertical-center">
@@ -871,100 +830,27 @@
 										</span>
 									</a>
 									<div id="gallery-2" class="mfp-hide">
-										<a href="images/works/work5.jpg"></a>
-										<a href="images/works/work2.jpg"></a>
-										<a href="images/works/work3.jpg"></a>
-										<a href="images/works/work4.jpg"></a>
+										<a href="{% static 'images/works/photo0.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo1.jpg' %}"></a>
+										<a href="{% static 'images/works/photo2.jpg' %}"></a>
+										<a href="{% static 'images/works/photo3.jpg' %}"></a>
+										<a href="{% static 'images/works/photo4.png' %}"></a>
+										<a href="{% static 'images/works/photo5.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo6.jpg' %}"></a>
+										<a href="{% static 'images/works/photo7.JPG' %}"></a>
+										<a href="{% static 'images/works/photo8.jpeg' %}"></a>
+										<a href="{% static 'images/works/photo9.jpg' %}"></a>
 									</div>
 								</div>
 								<div class="desc">
-									<div class="category">Gallery</div>
-									<a href="#gallery-2" class="name has-popup-gallery">Brown Short Dog</a>
+									<div class="category">Projects</div>
+									<a href="#gallery-2" class="name has-popup-gallery">Recent Project Collection</a>
 								</div>
 							</div>
 						</div>
 
-						<div class="box-col f-music">
-							<div class="box-item">
-								<div class="image">
-									<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music">
-										<img src="images/works/work6.jpg" alt="" />
-										<span class="info">
-											<span class="centrize full-width">
-												<span class="vertical-center">
-													<i class="icon fas fa-music"></i>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="desc">
-									<div class="category">Music</div>
-									<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="name has-popup-music">Brown Concrete Building</a>
-								</div>
-							</div>
-						</div>
 
-						<div class="box-col f-links">
-							<div class="box-item">
-								<div class="image">
-									<a href="https://beshley.com/" class="has-popup-link" target="_blank">
-										<img src="images/works/work3.jpg" alt="" />
-										<span class="info">
-											<span class="centrize full-width">
-												<span class="vertical-center">
-													<i class="icon fas fa-link"></i>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="desc">
-									<div class="category">Links</div>
-									<a href="https://beshley.com/" class="name has-popup-link">Black Car</a>
-								</div>
-							</div>
-						</div>
 
-						<div class="box-col f-content">
-							<div class="box-item">
-								<div class="image">
-									<a href="#popup-1" class="has-popup-media">
-										<img src="images/works/work8.jpg" alt="" />
-										<span class="info">
-											<span class="centrize full-width">
-												<span class="vertical-center">
-													<i class="icon fas fa-plus"></i>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="desc">
-									<div class="category">Content</div>
-									<a href="#popup-1" class="name has-popup-media">Yellow and Blue Striped</a>
-								</div>
-								<div id="popup-1" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/works/work8.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Content</div>
-											<h4>Yellow and Blue Striped</h4>
-											<p>
-												Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata 
-												suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
-											</p>
-											<a href="#" class="btn">
-												<span class="animated-button"><span>View Project</span></span>
-												<i class="icon fas fa-chevron-right"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 
 					</div>
 
@@ -984,7 +870,8 @@
 
 					<!-- contact form -->
 					<div class="contact-form">
-						<form id="cform" method="post">
+						<form method="POST" action="">
+							{% csrf_token %}
 							<div class="group-val">
 								<div class="label">Full name <strong>*</strong></div>
    								<input type="text" name="name" placeholder="ej.: Fizanaz Kabir" />
