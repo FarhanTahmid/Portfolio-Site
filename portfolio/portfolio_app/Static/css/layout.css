@@ -2523,50 +2523,11 @@
 
 }
 
-/* - Contacts */
-.section.contacts .alert-success {
-	display: none;
-}
-
-.section.contacts .alert-success p {
-	font-size: 14px;
-	color: #FFF;
-}
-
-
-.contact-form {
-	padding-right: 40px;
-	float: left;
-	width: 50%;
-}
-
-.contact-form .group-val {
-	position: relative;
-	margin-bottom: 40px;
-}
-
-.contact-form .group-val .label {
-	padding: 0 10px;
-	position: absolute;
-	left: 35px;
-	top: -5px;
-	font-size: 12px;
-	line-height: 12px;
-	color: #FFF;
-	font-weight: 800;
-	background: #373b40;
-	text-transform: uppercase;
-	z-index: 2;
-}
-
-.contact-form .group-val .label strong {
-	color: #68e0cf;
-}
-
+/* - contact info */
 
 .contact-info {
 	padding: 30px;
-	float: right;
+	float: left;
 	width: 50%;
 	min-height: 482px;
 	border: 1px solid #585d65;
@@ -2613,21 +2574,8 @@
 
 
 @media (max-width: 720px) {
-	.contact-form {
-		padding-right: 0;
-		float: none;
-		width: 100%;
-	}
 
-
-	.contact-form .btn {
-		top: -10px;
-		display: block;
-		width: 100%;
-	}
-
-
-	.contact-info {
+        .contact-info {
 		margin-top: 40px;
 		float: none;
 		width: 100%;
